@@ -1,4 +1,5 @@
-var cssjanus = require('cssjanus');
+var cssjanus = require('cssjanus'),
+    fs = require("fs");
 
 /**
  * Extend LESS with ltr/rtl autogeneration
