@@ -3,6 +3,6 @@
   "version": "0.0.2",
   "repository": "https://github.com/Pomax/node-rtltr-for-less.git",
   "dependencies": {
-    "cssjanus": "0.5.5"
+    "cssjanus": "1.0.2"
   }
 }
