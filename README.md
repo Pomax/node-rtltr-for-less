@@ -10,3 +10,7 @@ for "style.less" and convert it to the abovementioned three files.
 
 **NOTE** This only works with version of less-middleware for which the PR at
 https://github.com/emberfeather/less.js-middleware/pull/76 has been merged in.
+
+Until then, this works with the less-middleware fork over at:
+
+  https://github.com/Pomax/less.js-middleware/archive/master.tar.gz
