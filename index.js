@@ -29,7 +29,7 @@ module.exports = function rtltrForLess(options) {
    */
   var postprocessor = function (cssPath, css, writeToDisk) {
     // note: we don't have to call writeToDisk()
-    var warning = "/* DO NOT MODIFY THIS FILE - IT GETS REBUILT FROM .LESS SOURCE WHEN WEBMAKER.ORG IS RUN */\n",
+    var warning = "/* DO NOT MODIFY THIS FILE - IT GETS REBUILT FROM .LESS SOURCEI ON REQUESTS */\n",
         rtl = cssjanus.transform(css),
         rtlPath = cssPath.replace(".css", ".rtl.css"),
         ltrPath = cssPath.replace(".css", ".ltr.css");
